@@ -41,7 +41,7 @@ num_workers = 1
 
 # Setting the dataset and dataloader
 dataset = CatDogDataset(
-    root_dir="/home/jingying/AIPython/data/catdog/train",
+    root_dir="/home/jingying/AIPython/data/lora/train",
     annotation_file="/home/jingying/baseline/cnn/train_me.csv",
     transform=transform,
 )

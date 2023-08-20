@@ -5,7 +5,7 @@ import torchvision
 from PIL import Image
 import torch
 
-class CatsAndDogsDataset(Dataset):
+class LoRADataset(Dataset):
     def __init__(self, root_dir, annotation_file, transform=None):
         self.root_dir = root_dir
         self.annotations = pd.read_csv(annotation_file)

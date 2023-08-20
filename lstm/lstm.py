@@ -20,7 +20,7 @@ num_epochs = 2
 batch_size = 100
 learning_rate = 0.001
 
-# MNIST dataset 
+# lora dataset 
 train_dataset = torchvision.datasets.MNIST(root='.lstm/data', 
                                            train=True, 
                                            transform=transforms.ToTensor(),  

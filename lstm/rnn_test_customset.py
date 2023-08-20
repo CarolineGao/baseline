@@ -15,7 +15,7 @@ import torch
 import numpy as np
 
 # Custom Dataset: returns input sequences and labels.
-class MyDataset(Dataset):
+class LoRADataset(Dataset):
     def __init__(self, input, seq_len):
         self.input = input
         self.seq_len = seq_len
@@ -29,7 +29,7 @@ class MyDataset(Dataset):
 input = np.arange(1,8).reshape(-1, 1) #output [[1] [2] [3] [4] [5] [6] [7]], shape(7,1)
 input = torch.tensor(input, dtype=torch.float)
 
-dataset = MyDataset(input, 3)
+dataset = LoRADataset(input, 3)
 dataloader = DataLoader(dataset, batch_size=2)
 
 for input_sequence, label in dataloader:
