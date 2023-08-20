@@ -1,0 +1,9 @@
+mac-network-pytorch/mac-network-pytorch-gqa/data/
+data/
+minigpt4/llama-7b-hf
+minigpt4/vicuna-7b-delta-v0
+minigpt4/wicuna_weight_7b
+bottom-up-attention-vqa-pytorch/data
+bottom-up-attention-vqa-pytorch/protobuf
+VQA-transformers/checkpoint
+mm-cot/models

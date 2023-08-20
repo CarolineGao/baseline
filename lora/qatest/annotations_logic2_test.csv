@@ -1,0 +1,11 @@
+﻿question_type,multiple_choice_answer,answers,image_id,answer_type,question_id
+logicAnd,no,parsley,1020,singleobjects,10200000
+logicAnd,no,cucumber,1021,singleobjects,10210000
+logicAnd,no,"pepper,capsicum,chilli",1022,multipleobjects,10220000
+logicAnd,no,"zucchini,asparagus, leek, cucumber",1023,multipleobjects,10230000
+logicAnd,no,"leek,parsley",1024,multipleobjects,10240000
+logicAnd,no,broccoli,1025,singleobjects,10250000
+logicAnd,no,"zucchini,pepper,avocado,capsicum,cucumber",1026,multipleobjects,10260000
+logicAnd,no,parsley,1027,singleobjects,10270000
+logicAnd,no,"cabbage,lettuce",1028,multipleobjects,10280000
+logicAnd,no,asparagus,1029,singleobjects,10290000

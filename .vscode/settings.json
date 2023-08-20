@@ -1,0 +1,6 @@
+{
+    "git.enabled": false,
+    "python.analysis.extraPaths": [
+        "./faster_rcnn/vision"
+    ]
+}

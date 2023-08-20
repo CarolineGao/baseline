@@ -1,0 +1,22 @@
+Three options
+
+1. All objects with bboxes - [apple, wine, pumpkin, pear, pepper ]  - object detection task 
+2. Answer options objects info with bboxes  - [pumpkin, pepper, cucumber] - VA 
+
+
+
+3. Only provide Exact answer objects info with bboxes - [pepper] - VA 
+
+Training scores of objects and bboxes. 
+
+Label: exact answer. 
+highest scores for the object which is the exact answer. 
+
+
+4. All object with bboxes, plus another info: 
+output 
+0: object not answer, 
+1: object is answer 
+Solution: Add the fasterrcnn + cnn's output last layer (binary classification/softmax)
+
+
